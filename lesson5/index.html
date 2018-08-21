@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Практика c Bootstrap 4</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="css/lesson5.css" rel="stylesheet" />
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Основное задание<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="second_task.html">Дополнительное задание</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>Создать блок, который включает два абзаца по 30 слов, и список на 5 строк.</h1>
+
+                    <p>
+                        Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.
+                    </p>
+
+                    <p>
+                        Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.
+                    </p>
+
+                    <ul>
+                        <li>Amet, consectetur adipiscing elit.</li>
+                        <li>Consectetur adipiscing elit fusce vel.</li>
+                        <li>Tincidunt integer eu augue augue nunc elit dolor.</li>
+                        <li>Vehicula ut laoreet ac.</li>
+                        <li>Tincidunt integer eu augue augue nunc elit dolor.</li>
+                    </ul><br />
+                </div>
+            </div><br />
+
+            <div class="row">
+                <div class="col">
+                    <h3>Установить ширину абзацев по 45%, и выровнять по центру.</h3>
+                    <p class="w-50 text-center ">
+                        Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.
+                    </p>
+                    <p class="w-50 text-center">
+                        Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.
+                    </p>
+                </div>
+            </div><br />
+
+            <div class="row">
+                <div class="col">
+                    <h3>Элементы списка сделать строчными.</h3>
+                    <ul class="list-inline">
+                        <li class="list-inline-item">Amet, consectetur adipiscing elit.</li>
+                        <li class="list-inline-item">Consectetur adipiscing elit fusce vel.</li>
+                        <li class="list-inline-item">Tincidunt integer eu augue augue nunc elit dolor.</li>
+                        <li class="list-inline-item">Vehicula ut laoreet ac.</li>
+                        <li class="list-inline-item">Tincidunt integer eu augue augue nunc elit dolor.</li>
+                    </ul>
+                </div>
+            </div><br />
+
+            <div class="row">
+                <div class="col">
+                    <h3>На мобильной версии первый абзац становится вторым, а второй – первым.</h3>
+                    <div class="d-flex flex-column">
+                        <p class="order-2 order-sm-1 ">
+                            First : Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.
+                        </p>
+                        <p class="order-1 order-sm-2 ">
+                            Second : Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.
+                        </p>
+                    </div>
+                </div>
+            </div><br />
+
+            <div class="row">
+                <div class="col">
+                    <h3>На большом расширении элементы списка прижаты к правому краю, в обратном порядке.</h3>
+                    <div class="d-flex justify-content-lg-end">
+                        <ul class="d-flex flex-lg-column-reverse flex-column">
+                            <li>Раз ///></li>
+                            <li>Два ///></li>
+                            <li>Три ///></li>
+                        </ul>
+                    </div>
+                </div>
+            </div><br />
+        </div>
+
+
+
+    </main>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
