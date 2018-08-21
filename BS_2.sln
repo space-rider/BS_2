@@ -9,13 +9,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		3rd_page.html = 3rd_page.html
 		bonus_page.html = bonus_page.html
 		index.html = index.html
-		lesson2.css = lesson2.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{11FA6DF3-7049-4C37-BDCB-A4953FA68B3C}"
+	ProjectSection(SolutionItems) = preProject
 		lesson2.js = lesson2.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{6714C0FC-C19F-40DF-B044-64DAA1401FDA}"
+	ProjectSection(SolutionItems) = preProject
+		lesson2.css = lesson2.css
 	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{11FA6DF3-7049-4C37-BDCB-A4953FA68B3C} = {336E8F19-B864-4D8C-BA72-C2B3F46F5555}
+		{6714C0FC-C19F-40DF-B044-64DAA1401FDA} = {336E8F19-B864-4D8C-BA72-C2B3F46F5555}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6E9BD41E-EE1B-4321-A8C2-A37F0AD4772A}
