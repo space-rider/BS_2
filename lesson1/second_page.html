@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Знакомство с Bootstrap4</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/lesson1.css" />
+</head>
+<body>
+    <h2>
+        Создать следующую разметку : <br />
+        1) контейнер фиксированной ширины -> строка -> колонка на всю ширину -> строка без
+        отступов (справа, слева) -> колонка на половину ширины + 3 одинаковых колонки. <br />
+        2) контейнер на всю ширину браузера -> строка -> 6 одинаковых колонок без отступов (справа,
+        слева).
+    </h2><hr />
+
+    <div class="container" id="first_container">
+        <div class="row">
+            <div class="col">
+                <p class="h1" id="bootstrapColor">Bootstrap</p>
+                <p>
+                    Build responsive, mobile-first projects on the web with the world's most popular front-end component library.
+                </p>
+                <p>
+                    Bootstrap is an open source toolkit for developing with HTML, CSS, and JS.
+                    Quickly prototype your ideas or build your entire app with our Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <p class="h2">Introduction</p>
+                <p>Get started with Bootstrap, the world’s most popular framework for building responsive, mobile-first sites, with BootstrapCDN and a template starter page.</p>
+            </div>
+            <div class="col-md-2">
+                <p class="h2">Quick start</p>
+                <p>Looking to quickly add Bootstrap to your project? Use BootstrapCDN, provided for free by the folks at StackPath. </p>
+            </div>
+            <div class="col-md-2">
+                <p class="h2">CSS</p>
+                <p>Copy-paste the stylesheet &lt;> into your &lt;> before all other stylesheets to load our CSS.</p>
+            </div>
+            <div class="col-md-2">
+                <p class="h2">JS</p>
+                <p>We use jQuery’s slim build, but the full version is also supported.</p>
+            </div>
+        </div>
+    </div><br />
+
+    <div class="container-fluid" id="second_container">
+        <div class="row">
+            <div class="col">
+                <p class="h3">Important globals</p>
+                <p>
+                    Bootstrap employs a handful of important global styles and settings that you’ll need to be aware of when using it,
+                    all of which are almost exclusively geared towards the normalization of cross browser styles. Let’s dive in.
+                </p>
+            </div>
+            <div class="col">
+                <p class="h3">HTML5 doctype</p>
+                <p>Bootstrap requires the use of the HTML5 doctype. Without it, you’ll see some funky incomplete styling, but including it shouldn’t cause any considerable hiccups.</p>
+            </div>
+            <div class="col">
+                <p class="h3">Responsive meta tag</p>
+                <p>
+                    Bootstrap is developed mobile first, a strategy in which we optimize code for mobile devices first and then scale up components as necessary using CSS media queries. To ensure proper rendering and touch zooming for all devices, add the responsive viewport meta tag to your
+                    &lt;head>
+                    .
+                </p>
+            </div>
+            <div class="col">
+                <p class="h3">Box-sizing</p>
+                <p>For more straightforward sizing in CSS, we switch the global box-sizing value from content-box to border-box. This ensures padding does not affect the final computed width of an element, but it can cause problems with some third party software like Google Maps and Google Custom Search Engine.</p>
+            </div>
+            <div class="col">
+                <p class="h3">Reboot</p>
+                <p>For improved cross-browser rendering, we use Reboot to correct inconsistencies across browsers and devices while providing slightly more opinionated resets to common HTML elements.</p>
+            </div>
+            <div class="col">
+                <p class="h3">Community</p>
+                <p>Stay up to date on the development of Bootstrap and reach out to the community with these helpful resources.</p>
+            </div>
+        </div>
+    </div><br />
+
+    <div class="back"><a href="index.html" style="color: white; text-decoration:none">Назад</a></div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+</body>
+</html>

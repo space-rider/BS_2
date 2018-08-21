@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{476AFD8B-A8FC-4615-872D-F99835914BCC}"
+	ProjectSection(SolutionItems) = preProject
+		bonus_page.html = bonus_page.html
+		index.html = index.html
+		second_page.html = second_page.html
+		third_page.html = third_page.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{F1A851F9-ED57-4645-9892-C0EF38B02C23}"
+	ProjectSection(SolutionItems) = preProject
+		lesson1.css = lesson1.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{EAA5E2F8-24CD-4D72-857A-1777A48CE8D4}"
+	ProjectSection(SolutionItems) = preProject
+		lesson1.js = lesson1.js
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F1A851F9-ED57-4645-9892-C0EF38B02C23} = {476AFD8B-A8FC-4615-872D-F99835914BCC}
+		{EAA5E2F8-24CD-4D72-857A-1777A48CE8D4} = {476AFD8B-A8FC-4615-872D-F99835914BCC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D8A3D56E-136F-4926-BDB6-11278F1DC446}
+	EndGlobalSection
+EndGlobal
