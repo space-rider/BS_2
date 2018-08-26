@@ -1,3 +1,4 @@
-.suo
-.SUO
-.vs/
+*.suo
+*.SUO
+*.vs/
+*.sln
